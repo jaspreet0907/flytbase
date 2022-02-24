@@ -3,7 +3,7 @@ import time
 from flyt_python import api
 drone = api.navigation(timeout=120000) 
 
-# 4 second gap to initalize all the subsyte,s
+# 4 second gap to initalize all the subsytems
 time.sleep(4)
 
 print 'taking off'
